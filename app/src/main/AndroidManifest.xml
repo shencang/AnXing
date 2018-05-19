@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mingrisoft.anxingdemo3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="安行"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.SlideHead" />
+        <activity android:name=".UI.Userinfo" />
+        <activity android:name=".UI.SystemInfo" />
+        <activity android:name=".UI.AxConnecter" />
+        <activity android:name=".UI.UrgencyConnect" />
+        <activity android:name=".UI.AutonymAttestion" />
+        <activity android:name=".UI.AXPopWindows"></activity>
+    </application>
+
+</manifest>
