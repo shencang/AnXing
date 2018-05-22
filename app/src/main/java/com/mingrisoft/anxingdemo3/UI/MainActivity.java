@@ -33,6 +33,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private PopupWindow popWindows;
     private DisplayMetrics dm;
     ImageView menu;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +44,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         clickAt();
         slidskip();
     }
+
+
+
     /*
     time:2018.5.13
     editer:书豪
@@ -61,6 +66,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
         tton=findViewById(R.id.toggle_btn);
         pton=findViewById(R.id.plus_btn);
+
     }
     /*
    time:2018.5.13
@@ -230,4 +236,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
             }
         });
     }
+
+
+
+
 }

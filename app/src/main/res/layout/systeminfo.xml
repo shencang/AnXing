@@ -13,4 +13,12 @@
         android:textColor="#000"
         android:textSize="17sp"
         />
+
+    <Button
+        android:id="@+id/setvoice_btn"
+        android:text="设置声音"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
 </LinearLayout>
